@@ -1,4 +1,4 @@
-build
+build:
 
   steps:
     - uses: actions/upload-artifact@v3
