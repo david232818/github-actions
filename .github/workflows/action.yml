@@ -1,9 +1,10 @@
 on: workflow_dispatch
 
-build:
+jobs:
+  build:
 
-  steps:
-    - uses: actions/upload-artifact@v3
-      with:
-        name: my-artifact
-        path: .github/workflows/python_*.txt
+    steps:
+      - uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: .github/workflows/python_*.txt
