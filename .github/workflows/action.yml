@@ -4,8 +4,7 @@ on: [push]
 
 jobs:
   steps:
-    - name: upload
-      uses: actions/upload-artifact@v3
-      with:
-        name: my-artifact
-	path: ./python_3_8.txt!
+    uses: actions/upload-artifact@v3
+    with:
+      name: my-artifact
+      path: ./
