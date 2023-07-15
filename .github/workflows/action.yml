@@ -8,4 +8,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: workflows
-	path: ./python_?.txt
+	path: ./python_*_*.txt
